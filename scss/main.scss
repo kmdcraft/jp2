@@ -1,5 +1,17 @@
+$primary-color: #616f39;
+$secondary-color: #faf3dd;
+
+a {
+    text-decoration: none;
+
+    &:hover {
+        color: red;
+    }
+}
+
 body {
-    color: green;
-    background-color: red;
+    color: $primary-color;
+    background-color: $secondary-color;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid black;
 }

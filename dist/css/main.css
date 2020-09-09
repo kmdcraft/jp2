@@ -1,4 +1,10 @@
+a {
+  text-decoration: none; }
+  a:hover {
+    color: red; }
+
 body {
-  color: green;
-  background-color: red;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+  color: #616f39;
+  background-color: #faf3dd;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: 2px solid black; }
